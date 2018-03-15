@@ -1,0 +1,161 @@
+// Topic: Hello World
+//console.log("Hello World! (from webpack) with an automated update!");
+// let a = "hello";
+
+// console.log(a);
+
+// {
+//     let a = "goodbye";
+//     console.log("a inside scope", a);
+// }
+
+// {
+//     let salary = 90000;
+// }
+
+// console.log(salary);
+
+// Topic: Constants
+
+// const c = 2;
+
+// // c = 3 * 2;
+
+// const array = [1, 2, 3];
+// array.push(4);
+// console.log(array);
+
+// //array=[1];
+
+// // literals
+
+// const aa = "Hello";
+// const bb = "World";
+// const cc = aa + " " + bb;
+// console.log(cc);
+
+// let d = `hello ${bb}`;
+// console.log(d);
+
+// let e = `${a} world`;
+// console.log(e);
+
+// Topic: Arrays
+
+// let a = [7, 8, 9];
+// let b = [6, ...a, 10];
+// console.log(b);
+
+// function print(a, b, c) {
+//     console.log(a, b, c);
+// }
+
+// let z = [1, 2, 3];
+// print(...z);
+
+// function print2(...z) {
+//     console.log(z);
+// }
+
+// print2(1, 2, 3, 4, 5);
+
+// Topic: Destroy arrays
+// let c = [100, 200];
+// // let a = c[0];
+// // let b = c[1];
+// let [a, b] = c;
+// console.log(a, b);
+
+// let fellowship = ["Frodo", "Gandalf", "Aragorn"];
+// let [hobbit, wizzard, ranger] = fellowship;
+// console.log(hobbit, wizzard, ranger);
+
+// let c = [100, 200, 300, 400, 500];
+// let [a, ...b] = c;
+// console.log(a, b);
+
+// let wizard = { magical: true, power: 10 };
+// // let magical = wizard.magical;
+// // let power = wizard.power;
+// let { magical, power } = wizard;
+// console.log(magical, power);
+// let magical = true;
+// let power = 2;
+// let ranger = { magical: false, power: 9 };
+// ({ magical, power } = ranger);
+// console.log(magical, power);
+
+// Topic: Arrow functions
+
+// function blastoff() {
+//     console.log("3...2...1... blastoff!");
+// }
+
+// setTimeout(() => {
+//     console.log("3...2...1... blastoff!");
+// }, 1000);
+
+// const blastoff = () => {
+//     console.log("3...2...1... blastoff!");
+// }
+
+// blastoff();
+
+// this.a = 25;
+// let print = function () {
+//     this.a = 50;
+//     console.log("this.a", this.a);
+// }
+
+// print();
+
+// let arrowPrint = () => {
+//     console.log("this.a in arrowPrint", this.a);
+// }
+
+// arrowPrint();
+
+// Topic: maps.
+// let points = [10, 20, 30];
+// let addOne = (element) => {
+//     return element + 1;
+// }
+
+// points = points.map((element) => element + 1);
+// console.log(points);
+
+// Topic: Filters
+// let isPassing = (grade) => {
+//     return grade >= 70;
+// }
+
+// let scores = [90, 85, 67, 71, 70, 55, 92];
+// // let passing = scores.filter(isPassing);
+// let passing = scores.filter(element => element >= 70);
+// console.log(passing);
+
+// More helper methods: find(), forEach(), keys(), values()
+
+// Topic: modules
+
+// import { students, total } from "./students";
+
+// console.log(students, total);
+
+// Topic: export
+
+//import { add, multiply } from "./calculator";
+// import multiply from "./calculator";
+// // console.log(add(1, 2), multiply(3, 2));
+// console.log(multiply(3, 2));
+
+// Topic: classes
+// import Entity from "./Entity";
+// import Hobbit from "./Hobbit";
+// let merry = new Entity("Merry", 4.6);
+// merry.greet();
+
+// let frodo = new Hobbit("Frodo Baggins", 4.5);
+// frodo.greet();
+
+// 

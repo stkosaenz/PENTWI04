@@ -1,0 +1,13 @@
+Coding Break: Functions and Methods
+Sección 5, clase 27
+Coding Break: Functions and Methods
+
+Whew! We just learned about arrow functions and helper methods, and it seems like a nice break from learning could help (totally optional of course).
+
+Let’s take a moment though, to overview the important topics we discussed in this section.
+
+Arrow functions work like normal method expressions in JavaScript, but with a shorter syntax. They also have the added benefit of being anonymous. In addition, unlike normal JavaScript function, they do not bind the this object to their function scope.
+The map helper method in es6 allows us to create arrays by calling a function on each element of an initial array.
+The filter helper method in es6 creates new arrays with all the same elements of an initial array depending on a test that we give it.
+
+Overall, arrow functions, whether used in place of normal JavaScript functions, or in helper methods like map, filter, and more, will appear everywhere in es6. So get used to that funny looking syntax! You might even learn to love arrow functions (if you don’t already). I mean, just look at it. Instead of the word, function, we have beautiful, plain, and clear thing: =>

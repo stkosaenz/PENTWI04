@@ -1,0 +1,27 @@
+Break: Modules
+Sección 6, clase 30
+Coding Break: Modules
+
+If you finished this section pretty quickly, by all means skip this optional coding break! The pace you go through this course is completely up to you!
+
+Let’s briefly overview the main concepts discussed in this section on modules.
+
+Modules refer to reusable pieces of code that often exist independently in their own separate files.
+
+Export in es6 sends functions, objects, or primitive values from one module to another.
+
+Import in es6 receives functions, objects, or primitive values from another module.
+
+The default export represents a fallback or “main” value/function for a module.
+
+You cannot write the export default syntax and declare variables on the same line.
+
+Overall, this section introduced the important principle of modules. In every large application using es6 that you come across, you will see modules. In fact, that giant folder that node installs, node_modules, simply collects a bunch of modules that other JavaScript developers created!
+
+Now, have you heard the story of the famous JavaScript choreographer? Well, he had big plans for an amazing performance. And he had three world-class dancers, named “export”, “default”, and “const.” But whenever he tried to teach them his choreography, his frustration from failing only grew more and more.
+
+So… why did he fail?
+
+He couldn’t get “export”, “default”, and “const” to be on the same line.
+
+:)

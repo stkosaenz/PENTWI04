@@ -1,0 +1,23 @@
+Break: Babel and Webpack
+Sección 2, clase 13
+Babel and Webpack
+
+Here comes the first optional break. Stick around for an overview of what we just learned if you’d like. Or just catch the quality humor that finishes this thing off!
+
+We just spent some time setting up babel and webpack so that we can code in es6. We also set up our configuration file for webpack and prepared a project that transforms es6 code into JavaScript. The details of these configuration files really matter, so here’s another link to the github repo for this course (https://github.com/15Dkatz/es6-tutorial). Feel free to use this repo as a starting point for any es6 project you do in the future!
+
+Also, before we get to some actual coding, let’s overview the main points of babel and webpack.
+
+A transpiler reads code written in one language and produces the equivalent code in another.
+
+We need transpilers so that our pretty es6 code compiles into the dense JavaScript code that browser like. Babel is one of the most popular es6 transpilers.
+
+Using webpack allows us to create an environment that transforms es6 code with babel.
+
+It combines multiple modules into one js file to reduce errors and resources on the client-side.
+
+Shipping with a development server, it gives us live code updating for free!
+
+Overall, we JavaScript developers have to appreciate awesome libraries like these. I mean, I could just babel on and on about these great features.
+
+And if you enjoyed that one, don’t worry, I webpacked plenty more jokes to come :)
